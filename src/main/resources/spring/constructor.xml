@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+
+        <context:component-scan base-package="com.hunt.lesson_3_constructors"/>
+
+    <bean id="bike"
+          class="com.hunt.lesson_3_constructors.constructor.MotoBike">
+          <constructor-arg index="0" ref="engineBike"/>
+          <constructor-arg index="1" ref="transmission"/>
+          <constructor-arg index="2" value="Yamaha"/>
+
+    </bean>
+
+
+    <bean id="engineBike" class="com.hunt.lesson_3_constructors.constructor.EngineBike">
+        <constructor-arg value="BMW"/>
+    </bean>
+    <bean id="transmission" class="com.hunt.lesson_3_constructors.constructor.Transmission">
+        <constructor-arg value="Wheel"/>
+    </bean>
+<!--    <bean id="FrameOwn" class="com.hunt.lesson_4_di.FrameOwn">-->
+<!--        <constructor-arg value="Frame"/>-->
+<!--    </bean>-->
+
+
+        <!--
+            Ключевые слова которые есть у бина
+            <bean
+                    name/id
+                    class - путь к классу, какой класс и где его искать
+                    <p
+                    scope - как спринг будет создавать бин, каждый раз при обращении к бину или единожды, по умолчанию синглтон
+                            <singleton - будет создаваться один раз
+                            <prototype - будет создавать каждый раз при обращении.
+
+                    constructor-arg - если есть у бина конструктор, то мы должны указать параметры
+
+                    properties - передаем значения переменных
+                            <value
+                            <ref
+
+                    autowiring mode - используется для внедрения зависимостей
+
+                    lazy-initialization mode - ленивая инициализация компонента. При запуске запускается контекст, определяются
+                                                какие бины должны быть в контексте. а при лейзи создаст бины в контексте только
+                                                по запросу, когда обратимся
+
+                    initiolization method - правила создание бина init
+                    destruction method - правила уничтожения бина destroy
+
+            -->
+
+    <!--
+        Типы инверсии управления:
+            1. Dependency Logkup - поиск объекта, которое нужно внедрить другой объект (зависимость).
+                Он извлекает зависимость с учетом того, где мы укажем ему, где четко искать этот объект, как
+                в примере с Car ApplicationContext context = new ClassPathXmlApplicationContext("spring/constructor.xml");
+                <bean id="bike" class="com.hunt.lesson_3_constructors.constructor.MotoBike">
+                <constructor-arg index="0" ref="engineBike"/>
+
+
+            2. Dependency injection - подход с интерфейсом, где спринг будет сам отыскивать эти зависимости.
+                <!-  урок 4
+                 ApplicationContext context = new ClassPathXmlApplicationContext("spring/constructor.xml");
+                 FrameOwn frameOwn = (FrameOwn) context.getBean("frameOwn");
+                 (конструктор нужно закомментировать)
+                 объявляем анотацию компнент в фреймовн, инициализируем переменную и сканируем бины, через
+                 контекст скан указывая папку где лежат классы, как ниже,
+                 верхнее все комментируем
+                 <context:component-scan base-package="com.hunt.lesson_4_di"></context:component-scan>
+
+          -->
+
+        <!--   Урок 5 - указываем стрингу где ему позволено искать бины. Отмечаем классы анотацией @component("car") компонент,
+             из которого мы разрешаем создавать бин
+
+             Компонент - Ставим что бы спринг мог создать из нашего класса бин
+             Автовайред - для внедрения зависимостей, заставялет их внедрять
+             Велю - для передачи нужного значения
+             -->
+        <context:component-scan base-package="com.hunt.lesson_6_di_annotation"></context:component-scan>
+        <!-- Подключаем проперти для указания значений велю-->
+        <context:property-placeholder location="modelCar.properties"/>
+
+        <!--
+        Урок 8: фабрика бинов - апликатион контекст создает контекст (бин создаст при запуске бины при помощи описания), а фабрика бинов занимается
+        именно созданием бинов (только создавать объекты, а не контекст).
+        -->
+</beans>

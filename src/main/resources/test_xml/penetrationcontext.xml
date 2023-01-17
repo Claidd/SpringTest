@@ -1,0 +1,57 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:p="http://www.springframework.org/schema/p"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--       http://www.springframework.org/schema/beans/spring-beans.xsd-->
+<!--       http://www.springframework.org/schema/context-->
+<!--       https://www.springframework.org/schema/context/spring-context.xsd">-->
+
+<!--    <context:property-placeholder location="modelCar.properties"/>-->
+
+<!--    <bean id="car" class="com.hunt.lesson_1_setter.penetration.CarBMW"-->
+<!--          p:model="${model.car}"-->
+<!--          p:age="2002"-->
+<!--          p:device-ref="device"/>-->
+
+
+<!--    <bean id="device" class="com.hunt.lesson_1_setter.penetration.IPad"-->
+<!--          p:model="${model.device}"/>-->
+
+<!--    <bean id="plane" class="com.hunt.lesson_1_setter.plane_setter.Boing"-->
+<!--          p:number="${air.number}"-->
+<!--          p:speed="${air.speed}"-->
+<!--          p:pilot-ref="pilot"/>-->
+
+
+<!--    <bean id="pilot" class="com.hunt.lesson_1_setter.plane_setter.PilotJohn"-->
+<!--          p:name="${air.pilot}"/>-->
+
+    <!--
+    Ключевые слова которые есть у бина
+    <bean
+            name/id
+            class - путь к классу, какой класс и где его искать
+            <p
+            scope - как спринг будет создавать бин, каждый раз при обращении к бину или единожды, по умолчанию синглтон
+                    <singleton - будет создаваться один раз
+                    <prototype - будет создавать каждый раз при обращении.
+
+            constructor-arg - если есть у бина конструктор, то мы должны указать параметры
+
+            properties - передаем значения переменных
+                    <value
+                    <ref
+
+            autowiring mode - используется для внедрения зависимостей
+
+            lazy-initialization mode - ленивая инициализация компонента. При запуске запускается контекст, определяются
+                                        какие бины должны быть в контексте. а при лейзи создаст бины в контексте только
+                                        по запросу, когда обратимся
+
+            initiolization method - правила создание бина init
+            destruction method - правила уничтожении бина destroy
+
+    -->
+</beans>

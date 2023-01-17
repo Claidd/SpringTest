@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="233b533a-2677-470d-8901-f2b02c0a77ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_10_genericxml/AnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_10_genericxml/Rabbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/HelloWorldCommandLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/HelloWorldDecoupled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/HelloWorldFecupledWithFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/HelloWorldMessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/HelloWorldSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/MessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/MessageRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/MessageSupportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/StandartMessageRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/CarBMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/CarReno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/EngineBMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/EngineReno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/RamaCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/RamaCarBMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/RamaCarReno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/Wheels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/WheelsBMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/lesson_injection/WheelsReno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/msf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/penetration/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/penetration/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/penetration/CarBMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/penetration/CarTesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/penetration/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/penetration/IPad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/plane_setter/AirBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/plane_setter/Airport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/plane_setter/Boing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/plane_setter/Pilot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/plane_setter/PilotJohn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_1_setter/plane_setter/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_3_constructors/constructor/AppConstructors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_3_constructors/constructor/EngineBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_3_constructors/constructor/MotoBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_3_constructors/constructor/Transmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_4_di/FrameOwn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_4_di/TestComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_6_di_annotation/AppCanvase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_6_di_annotation/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_6_di_annotation/Armor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_6_di_annotation/ArmorInteface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_6_di_annotation/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_6_di_annotation/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_8_fabrica/BinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_8_fabrica/HelloBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_9_bean_factory/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_9_bean_factory/AppTestBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_9_bean_factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_9_bean_factory/Fox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_9_bean_factory/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/lesson_9_bean_factory/annotation/ComponentFB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunt/profile/ProfileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/modelCar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/annot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/configBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/constructor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_xml/appcontext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_xml/penetrationcontext.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KJDLIUXfLCw8mCwtkZ1f36IRsD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/Обучение/SpringTest&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;126911c3605a6ea239c82618aca48e94&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hunt.lesson_6_di_annotation" />
+      <recent name="com.hunt.lesson_3.constructor" />
+      <recent name="com.hunt.lesson_1.plane" />
+      <recent name="com.hunt.lesson_injection" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\SpringTest\src\main\resources\spring" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\Обучение\SpringTest\src\main\resources\spring" />
+      <recent name="D:\Java\Обучение\SpringTest\src\main\resources" />
+      <recent name="D:\Java\SpringTest\src\main\resources\test_xml" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hunt.lesson_9_bean_factory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AnnotationTest">
+    <configuration name="AnnotationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hunt.lesson_10_genericxml.AnnotationTest" />
+      <module name="sprinTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hunt.lesson_10_genericxml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppConstructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hunt.lesson_3_constructors.constructor.AppConstructors" />
+      <module name="SpringTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hunt.lesson_3_constructors.constructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTestBeanFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hunt.lesson_9_bean_factory.AppTestBeanFactory" />
+      <module name="SpringTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hunt.lesson_9_bean_factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hunt.lesson_9_bean_factory.BeanFactory" />
+      <module name="SpringTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hunt.lesson_9_bean_factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hunt.lesson_8_fabrica.BinTest" />
+      <module name="SpringTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hunt.lesson_8_fabrica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AnnotationTest" />
+      <item itemvalue="Application.BinTest" />
+      <item itemvalue="Application.AppConstructors" />
+      <item itemvalue="Application.AppTestBeanFactory" />
+      <item itemvalue="Application.BeanFactory" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnnotationTest" />
+        <item itemvalue="Application.BinTest" />
+        <item itemvalue="Application.AppTestBeanFactory" />
+        <item itemvalue="Application.BeanFactory" />
+        <item itemvalue="Application.AppConstructors" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="233b533a-2677-470d-8901-f2b02c0a77ec" name="Changes" comment="" />
+      <created>1673683738670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673683738670</updated>
+      <workItem from="1673683740396" duration="12044000" />
+      <workItem from="1673717669157" duration="12606000" />
+      <workItem from="1673799594693" duration="6731000" />
+      <workItem from="1673865058299" duration="9242000" />
+      <workItem from="1673889348236" duration="4485000" />
+      <workItem from="1673894448875" duration="455000" />
+      <workItem from="1673942649941" duration="12487000" />
+      <workItem from="1673963004474" duration="1182000" />
+      <workItem from="1673965099478" duration="230000" />
+      <workItem from="1673966072926" duration="517000" />
+      <workItem from="1673971206309" duration="333000" />
+      <workItem from="1673971571177" duration="642000" />
+      <workItem from="1673975666862" duration="965000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
