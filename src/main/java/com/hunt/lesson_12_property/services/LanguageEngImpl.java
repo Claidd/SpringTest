@@ -18,6 +18,6 @@ public class LanguageEngImpl implements LanguageName {
     private String greeting;
     @Override
     public String getGreeting() {
-        return greeting;
+        return String.valueOf(greeting);
     }
 }

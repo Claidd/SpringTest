@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+
+        <bean id="collectionTest"
+              class="com.hunt.lesson_15_maplist.CollectionTestXml">
+            <property name="map">
+                <map>
+                    <entry key="Value_1">
+                        <value>Hello</value>
+                    </entry>
+                    <entry key="Value_2">
+                        <value>World</value>
+                    </entry>
+                </map>
+            </property>
+            <property name="props">
+                <props>
+                    <prop key="FirstProp">Java!!!</prop>
+                    <prop key="SecondProp">Forever</prop>
+                </props>
+            </property>
+            <property name="set">
+                <set>
+                    <value>Spring</value>
+                    <value>Java</value>
+                </set>
+            </property>
+            <property name="list">
+                <list>
+                    <value>Ivan</value>
+                    <value>Hunt</value>
+                </list>
+            </property>
+
+        </bean>
+
+</beans>
