@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Airport {
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("test_xml/penetrationcontext.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring/penetrationcontext.xml");
         Plane plane = (Plane) context.getBean("plane");
 
         System.out.println("number flyte: " + plane.getAirNumber());

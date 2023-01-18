@@ -1,10 +1,10 @@
-package com.hunt.lesson_10_genericxml;
+package com.hunt.lesson_10_genericxml.test1;
 
 import org.springframework.stereotype.Component;
 
 @Component("rabbit")
 public class Rabbit {
-    void sayHello(){
+    public void sayHello(){
         System.out.println("Hello!!!");
     }
 }
